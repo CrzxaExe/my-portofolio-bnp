@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Zxra React",
+    "des": "Website tentang Zxra",
+    "link": "https://github.com/CrzxaExe/zxra-reactjs",
+    "lang": ["javascript - React.js"],
+    "version": "0.5.1",
+    "status": 1
+  },
+  {
+    "name": "Zxra Rest API",
+    "des": "API untuk menghubungkan aplikasi Zxra, Express.js",
+    "link": "https://github.com/CrzxaExe/Zxra-rest",
+    "lang": ["javascript - Express.js"],
+    "version": "1.0.2",
+    "status": 1
+  },
+  {
+    "name": "Face Detection",
+    "des": "Testing face detection",
+    "link": "https://github.com/CrzxaExe/Cz-Face-Detection",
+    "lang": ["python"],
+    "version": "1.0.0",
+    "status": 0
+  },
+  {
+    "name": "Zxra Rest v2",
+    "des": "Zxra Rest API versi 2 dengan menggunakan Elysia.js dari Bun",
+    "link": "",
+    "lang": ["typescript - Elysia.js"],
+    "version": "1.0.0",
+    "status": 2
+  }
+]

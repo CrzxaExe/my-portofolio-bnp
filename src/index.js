@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <div className="bg-slate-800 h-max">
+      <div className="bg-gradient-to-br from-slate-700 via-slate-800 to-slate-900 h-max">
         {" "}
         <App />
       </div>

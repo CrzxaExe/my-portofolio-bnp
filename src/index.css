@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face {
+    font-family: "Valorant";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./fonts/VALORANT-Regular.woff2) format("woff2");
+  }
+}
+
 .open div:nth-child(1) {
   transform: rotate(-45deg);
 }
