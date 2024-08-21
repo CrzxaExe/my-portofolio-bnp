@@ -1,0 +1,10 @@
+[
+  {
+    "name": "beranda",
+    "to": "/"
+  },
+  {
+    "name": "tentang",
+    "to": "about"
+  }
+]
