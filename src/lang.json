@@ -1,0 +1,17 @@
+[
+  {
+    "name": "javascript",
+    "color": "#faea11",
+    "learn": 70
+  },
+  {
+    "name": "typescript",
+    "color": "#11fab0",
+    "learn": 30
+  },
+  {
+    "name": "python",
+    "color": "#0c84cf",
+    "learn": 10
+  }
+]

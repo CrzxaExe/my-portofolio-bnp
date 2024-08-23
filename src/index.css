@@ -21,3 +21,11 @@
 .open div:nth-child(3) {
   transform: rotate(45deg);
 }
+
+b:hover .cz-percent {
+  display: inline;
+}
+
+b .cz-percent {
+  display: hidden;
+}

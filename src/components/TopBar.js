@@ -16,7 +16,7 @@ const TopBar = ({ nav, navToggle, menu, menuLong }) => {
   }, [nav]);
 
   return (
-    <header className="bg-slate-700/[0.8] flex px-2 py-3 fixed w-full z-[12]">
+    <header className="bg-slate-700/[0.8] flex px-2 lg:px-4 py-3 fixed w-full z-[12]">
       <b className="px-2 self-center w-1/2 lg:w-full text-base lg:text-lg">
         <span className="hidden lg:block">{menuLong}</span>
         <span className="lg:hidden">{menu}</span>

@@ -90,8 +90,8 @@ const About = ({ setMenu, setMenuLong }) => {
 
         <p className="pt-4 text-sm md:text-base lg:text-lg text-justify">
           Website ini dibuat dengan menggunakan library React beserta dengan
-          library yang lain. Dibuat secara simpel dan cepat. Selain itu, website
-          ini menggunakan beberapa module berikut: <br />
+          library yang lain. Dibuat secara simpel dan cepat serta responsif.
+          Selain itu, website ini menggunakan beberapa module berikut: <br />
           <ul className="list-disc px-4 pt-3">
             {Object.keys(pgs.dependencies).map((e, i) => {
               return (
