@@ -12,20 +12,20 @@ const projectStatus = ["Offline", "Online", "Ongoing"];
 
 const Home = ({ setMenu, setMenuLong }) => {
   // Set web title
-  document.title = "Beranda Bintang";
+  document.title = "Beranda";
 
   const [cal, setCal] = useState(new Date());
 
   // Set nav name
   setMenu("Beranda");
-  setMenuLong("Beranda Bintang");
+  setMenuLong("Beranda");
 
   return (
     <>
       <section className="py-3 pt-6">
         <div className="w-full lg:w-1/2">
           <h3 className="text-sm lg:text-base">Hai, namaku</h3>
-          <h1 className="text-lg lg:text-xl -mt-2">Bintang Nugraha Putra</h1>
+          <h1 className="text-xl lg:text-2xl -mt-2">Bintang Nugraha Putra</h1>
 
           <p className="text-xs lg:text-sm pt-5">
             Saya sedang berstudi di Universitas Jendral Soedirman di dalam
@@ -54,12 +54,11 @@ const Home = ({ setMenu, setMenuLong }) => {
             return (
               <Box
                 sx={{ width: "100%", color: e.color }}
-                className="flex items-center hover:text-sm"
+                className="flex items-center hover:text-sm my-1 transition-all duration-300 ease-in-out"
               >
-                <b className="font-mono text-xs hover:text-sm hover:bg-slate-700 hover:px-2 transition-all duration-300 ease-in-out w-[30%] md:w-[16%] lg:w-[8%] hover:w-[40%] hover:md:w-[25%] hover:lg:w-[14%] rounded">
+                <b className="font-mono text-xs hover:bg-slate-700 hover:px-2 transition-all duration-500 ease-in-out w-[24%] md:w-[16%] lg:w-[8%] rounded relative">
                   {e.name.charAt(0).toUpperCase() + e.name.slice(1)}{" "}
-                  <span className="text-white cz-percent hidden">
-                    {" "}
+                  <span className="text-white cz-percent hidden transition-all duration-300 ease-in-out z-[30] ">
                     {e.learn}%
                   </span>
                 </b>

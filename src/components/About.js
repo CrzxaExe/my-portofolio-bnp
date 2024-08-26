@@ -9,7 +9,7 @@ const About = ({ setMenu, setMenuLong }) => {
 
   // Set nav name
   setMenu("Tentang");
-  setMenuLong("Tentang Bintang");
+  setMenuLong("Tentang - Profile Bintang");
 
   return (
     <>
@@ -22,15 +22,15 @@ const About = ({ setMenu, setMenuLong }) => {
         </span>
 
         <div className="flex flex-wrap">
-          <div className="w-full lg:w-1/2 p-8 md:p-12 lg:p-14">
+          <div className="w-full lg:w-[36%] p-8 md:p-10 lg:p-14">
             <img
               src={myPhoto}
               alt="Bintang Nugraha Putra"
-              className="pt-5 rounded"
+              className="pt-5 rounded w-[80%] md:w-full mx-auto transition-all duration-300 ease-in-out"
             />
           </div>
 
-          <p className="pt-1 lg:pt-[3rem] px-0 lg:px-3 text-sm md:text-base lg:text-lg text-justify w-full lg:w-1/2">
+          <p className="pt-1 lg:pt-[3rem] px-0 lg:px-3 text-sm md:text-base lg:text-lg text-justify w-full lg:w-[64%]">
             Profile
             <br />
             Bernama lengkap Bintang Nugraha Putra, lahir di Kebumen pada tanggal
@@ -92,7 +92,7 @@ const About = ({ setMenu, setMenuLong }) => {
           Website ini dibuat dengan menggunakan library React beserta dengan
           library yang lain. Dibuat secara simpel dan cepat serta responsif.
           Selain itu, website ini menggunakan beberapa module berikut: <br />
-          <ul className="list-disc px-4 pt-3">
+          <ul className="list-disc px-4 pt-3 text-xs md:text-sm">
             {Object.keys(pgs.dependencies).map((e, i) => {
               return (
                 <li key={i}>

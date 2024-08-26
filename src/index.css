@@ -24,6 +24,7 @@
 
 b:hover .cz-percent {
   display: inline;
+  position: absolute;
 }
 
 b .cz-percent {
