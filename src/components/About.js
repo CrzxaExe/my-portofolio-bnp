@@ -30,7 +30,7 @@ const About = ({ setMenu, setMenuLong }) => {
             />
           </div>
 
-          <p className="pt-1 lg:pt-[3rem] px-0 lg:px-3 text-sm md:text-base lg:text-lg text-justify w-full lg:w-[64%]">
+          <p className="pt-1 lg:pt-[3rem] px-0 lg:px-3 text-sm md:text-base lg:text-md text-justify w-full lg:w-[64%]">
             Profile
             <br />
             Bernama lengkap Bintang Nugraha Putra, lahir di Kebumen pada tanggal
@@ -40,10 +40,17 @@ const About = ({ setMenu, setMenuLong }) => {
             <br />
             Pendidikan
             <br />
-            Berasal dari SMP Negeri 1 Ayah lalu lanjut lagi ke SMA Negeri 1
-            Rowokele dan sedang dalam masa kuliah di Universitas Jendral
-            Soedirman. Berkuliah di Teknik Komputer untuk mendapat gelar
-            sarjana.
+            <div className="border-0 border-l-2 border-white ml-1">
+              <p className="before:content-['>'] before:pr-5 pt-3 -ml-1">
+                SMP Negeri 1 Ayah - 2021
+              </p>
+              <p className="before:content-['>'] before:pr-5 pt-3 -ml-1">
+                SMA Negeri 1 Rowokele - 2024
+              </p>
+              <p className="before:content-['>'] before:pr-5 pt-3 -ml-1">
+                Universitas Jendral Soedirman - Sekarang
+              </p>
+            </div>
             <br />
             <br />
             Keminatannya terhadap dunia programming sudah terlihat semenjak

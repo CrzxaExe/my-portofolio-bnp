@@ -37,6 +37,7 @@ const Footer = () => {
                   <a
                     href={e.link}
                     key={i}
+                    target="blank"
                     className="hover:text-sky-300 transition duration-300 ease-in-out"
                   >
                     {e.name.charAt(0).toUpperCase() + e.name.slice(1)}

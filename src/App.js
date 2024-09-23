@@ -12,7 +12,7 @@ function App() {
   const [menuLong, setMenuLong] = useState("Zxra");
 
   return (
-    <div className="w-full text-white">
+    <div className="w-full text-white select-none">
       <TopBar nav={nav} navToggle={navToggle} menu={menu} menuLong={menuLong} />
       <div className="container px-5 lg:px-1 py-3 pt-[3.5rem]">
         <Routes>

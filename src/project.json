@@ -4,7 +4,7 @@
     "des": "Website tentang Zxra",
     "link": "https://github.com/CrzxaExe/zxra-reactjs",
     "lang": ["javascript - React.js"],
-    "version": "0.5.1",
+    "version": "0.5.7",
     "status": 1
   },
   {
@@ -28,6 +28,14 @@
     "des": "Zxra Rest API versi 2 dengan menggunakan Elysia.js dari Bun",
     "link": "",
     "lang": ["typescript - Elysia.js"],
+    "version": "1.0.0",
+    "status": 2
+  },
+  {
+    "name": "XDzr",
+    "des": "Super APP for Zxra",
+    "link": "",
+    "lang": ["javascript - React Native"],
     "version": "1.0.0",
     "status": 2
   }

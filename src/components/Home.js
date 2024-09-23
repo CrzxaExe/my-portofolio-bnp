@@ -38,10 +38,17 @@ const Home = ({ setMenu, setMenuLong }) => {
 
           <Link
             to="about"
-            className="bg-slate-800 font-mono px-3 py-2 mt-4 relative rounded-lg transition duration-500 ease-in-out hover:bg-slate-500 hover:text-slate-800 font-bold"
+            className="bg-slate-800 font-mono px-3 py-2 mt-4 tracking-tighter relative rounded-lg transition duration-500 ease-in-out hover:bg-slate-500 hover:text-slate-800 font-bold"
           >
             Tentang Saya
           </Link>
+          <a
+            href="https://zxra-reactjs.vercel.app/"
+            target="blank"
+            className="bg-slate-800 ml-1 font-mono px-5 py-2 mt-4 tracking-tighter relative rounded-lg transition duration-500 ease-in-out hover:bg-slate-500 hover:text-slate-800 font-bold"
+          >
+            Web
+          </a>
         </div>
       </section>
 
@@ -56,9 +63,9 @@ const Home = ({ setMenu, setMenuLong }) => {
                 sx={{ width: "100%", color: e.color }}
                 className="flex items-center hover:text-sm my-1 transition-all duration-300 ease-in-out"
               >
-                <b className="font-mono text-xs hover:bg-slate-700 hover:px-2 transition-all duration-500 ease-in-out w-[24%] md:w-[16%] lg:w-[8%] rounded relative">
+                <b className="font-mono text-xs hover:bg-slate-700 hover:px-2 transition-all duration-500 ease-in-out w-[28%] md:w-[18%] lg:w-[12%] rounded relative">
                   {e.name.charAt(0).toUpperCase() + e.name.slice(1)}{" "}
-                  <span className="text-white cz-percent hidden transition-all duration-300 ease-in-out z-[30] ">
+                  <span className="text-white cz-percent hidden transition-all duration-300 ease-in-out z-[30] px-1">
                     {e.learn}%
                   </span>
                 </b>
@@ -73,7 +80,7 @@ const Home = ({ setMenu, setMenuLong }) => {
         </div>
       </section>
 
-      <section className="bg-slate-700 px-4 py-2 mt-[2.4rem]">
+      <section className="bg-slate-700 px-4 py-4 mt-[2.4rem]">
         <h1 className="font-['Valorant'] text-lg lg:text-xl">Repo</h1>
         <span className="text-sm lg:text-base text-slate-400 -mt-2 block mb-2">
           Repository{" "}
@@ -100,12 +107,13 @@ const Home = ({ setMenu, setMenuLong }) => {
           </div>
         </div>
 
-        <div className="flex flex-wrap justify-between">
+        <div className="flex flex-wrap justify-center gap-1">
           {prjt.map((e) => {
             return (
-              <div className="w-full lg:w-[49.8%] bg-slate-800/[0.4] rounded px-4 py-2 mb-1 relative">
+              <div className="w-full lg:w-[49.5%] bg-slate-800/[0.4] rounded px-4 py-2 relative">
                 <a
                   href={e.link ? e.link : "#"}
+                  target="blank"
                   className="text-sm lg:text-base font-bold"
                 >
                   {e.name}
