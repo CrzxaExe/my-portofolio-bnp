@@ -2,16 +2,16 @@
   {
     "name": "javascript",
     "color": "#faea11",
-    "learn": 70
+    "learn": 78
   },
   {
     "name": "typescript",
     "color": "#11fab0",
-    "learn": 30
+    "learn": 42
   },
   {
     "name": "python",
     "color": "#0c84cf",
-    "learn": 10
+    "learn": 13
   }
 ]

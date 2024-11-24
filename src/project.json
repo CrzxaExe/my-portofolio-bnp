@@ -8,7 +8,15 @@
     "status": 1
   },
   {
-    "name": "Zxra Rest API",
+    "name": "Zxra Next",
+    "des": "Website tentang Zxra namun versi terbaru",
+    "link": "",
+    "lang": ["typescript - Next.js"],
+    "version": "1.0.0",
+    "status": 2
+  },
+  {
+    "name": "Zxra Rest",
     "des": "API untuk menghubungkan aplikasi Zxra, Express.js",
     "link": "https://github.com/CrzxaExe/Zxra-rest",
     "lang": ["javascript - Express.js"],
@@ -16,15 +24,7 @@
     "status": 1
   },
   {
-    "name": "Face Detection",
-    "des": "Testing face detection",
-    "link": "https://github.com/CrzxaExe/Cz-Face-Detection",
-    "lang": ["python"],
-    "version": "1.0.0",
-    "status": 0
-  },
-  {
-    "name": "Zxra Rest v2",
+    "name": "Zxra Elysia",
     "des": "Zxra Rest API versi 2 dengan menggunakan Elysia.js dari Bun",
     "link": "",
     "lang": ["typescript - Elysia.js"],

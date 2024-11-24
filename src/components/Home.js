@@ -63,9 +63,10 @@ const Home = ({ setMenu, setMenuLong }) => {
                 sx={{ width: "100%", color: e.color }}
                 className="flex items-center hover:text-sm my-1 transition-all duration-300 ease-in-out"
               >
-                <b className="font-mono text-xs hover:bg-slate-700 hover:px-2 transition-all duration-500 ease-in-out w-[28%] md:w-[18%] lg:w-[12%] rounded relative">
+                <b className="font-mono text-xs hover:bg-slate-700 hover:px-2 transition-all duration-500 ease-in-out w-[30%] md:w-[18%] lg:w-[12%] rounded relative">
                   {e.name.charAt(0).toUpperCase() + e.name.slice(1)}{" "}
                   <span className="text-white cz-percent hidden transition-all duration-300 ease-in-out z-[30] px-1">
+                    {" "}
                     {e.learn}%
                   </span>
                 </b>
